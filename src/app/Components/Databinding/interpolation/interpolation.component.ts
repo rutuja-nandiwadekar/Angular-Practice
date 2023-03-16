@@ -15,5 +15,4 @@ export class InterpolationComponent {
 
   status:boolean=false;
 
-
 }
