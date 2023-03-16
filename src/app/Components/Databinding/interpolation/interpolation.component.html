@@ -1,0 +1,32 @@
+<br>
+
+<h2>Interpolation data binding</h2>
+
+<h3>1. To display dynamic name</h3>
+<p>My name is {{dynName}}</p>
+<br>
+
+<h3>2. Expressions</h3>
+{{5-2}}
+{{10*3}}
+{{4+5}}
+
+<br>
+
+<h3> 3. string concatenation</h3>
+{{"Welcome " + dynName}}
+<br>
+{{"Sum is " + 4+5}}
+<br>
+
+<h3>4. JS inbuild methods and property</h3>
+{{dynName.length}}
+<br>
+{{dynName.toUpperCase()}}
+
+<br>
+<h3>5. Custom method</h3>
+{{customMethod()}}
+
+<h3>6. Ternary operator</h3>
+Status is {{status?"on":"off"}}
